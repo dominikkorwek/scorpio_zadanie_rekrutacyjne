@@ -1,0 +1,12 @@
+stowrzone przezemnie nodey znajduja sie w folderze src i są one w paczkach controller,set_goal i velocity.Kazdy node nazywa sie tak samo jak paczka.
+
+Engine to wasz silnik stworzony jako paczka.
+
+Komenda roslaunch ... odpala wszystkie nodey poza set_goal, gdyz set_goal sluzy jako ustawianie predkosci, z jaka ma dzialac sinik. Aby odpalic node trzeba wpisac: rosrun set_goal setgoal.py
+
+Aby zmienic parametr predkosci trzeba zmienic w kodzie ,,msg.data'' na inna liczbe (nie wiedzialem jak i nie starczylo mi czasu na stworzenie czegos co albo by pobieralo z klawiatury w czasie rzeczywistym liczby albo jakiegos pokretla zmieniajacego ten parametr) oraz ponownie wlaczyc node
+
+W kazdym kodzie nodea znajduja sie moje przypisy ktore opisuja dzialanie kazdego kodu
+
+
+Mozna juz do mojego formularza dopisac poslugiwanie sie ubuntu oraz Rosem :)

@@ -1,0 +1,8 @@
+prefix=/home/dodo/catkin_ws/devel
+
+Name: wysylanie
+Description: Description of wysylanie
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

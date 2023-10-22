@@ -1,0 +1,5 @@
+<launch>
+  <node name="virtual_dc_motor" pkg="virtual_dc_motor" type="virtual_dc_motor" output="log" respawn="true"></node>
+  <node name ="velocity" pkg = "velocity" type="velocity.py" output="log" respawn="true"> </node>
+  <node name ="controller" pkg = "controller" type="controller.py" output="log" respawn="true"> </node>
+</launch>
